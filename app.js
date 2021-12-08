@@ -1,3 +1,3 @@
-const log = console.log;
+const Game = require('./lib/Game');
 
-log('hi');
+new Game().initializeGame();
